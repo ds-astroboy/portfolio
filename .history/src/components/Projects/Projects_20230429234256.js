@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import web3 from "../../Assets/Projects/web3.png";
+import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import gpt3 from "../../Assets/Projects/gpt3.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -51,11 +51,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={web3}
+              imgPath={leaf}
               isBlog={false}
-              title="Modern Crypto Exchange Uniswap App, Web3 Development & Smart Contracts"
-              description="Master Web3 development by building a Uniswap dApp React application with metamask pairing, live smart contract data fetching, and most importantly, the ability to create your own ERC20 tokens, swap them and more."
-              ghLink="https://github.com/ds-astroboy/project_web3_uniswap.git"
+              title="Plant AI"
+              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
