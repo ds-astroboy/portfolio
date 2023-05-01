@@ -4,8 +4,10 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
+  SiHeroku,
+  SiVercel,
   SiGooglechrome,
-  SiJirasoftware,
+  SiMicrosoftword,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -24,7 +26,7 @@ function Toolstack() {
         <SiGooglechrome />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJirasoftware />
+        <SiJira />
       </Col>
     </Row>
   );

@@ -4,6 +4,7 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
+  SiJira,
   SiGooglechrome,
   SiJirasoftware,
 } from "react-icons/si";
